@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="LCG.js"></script>
+<title>クイズ</title>
+<script>
+$(function(){
+  $('input').click(function(){
+    if($(this).val() == 2) alert('正解!');
+    else alert('はずれ!');
+  });
+});
+</script>
+</head>
+<body>
+  <script src="./bmi.js"></script>
+  <p>あなたの好きな食べ物は?</p>
+  <p>
+    <input type="radio" name="food" value="1">そば
+    <input type="radio" name="food" value="2">うどん
+    <input type="radio" name="food" value="3">ラーメン
+  </p>
+</body>
+</html>
