@@ -1,9 +1,9 @@
 var LCG = (function () {
     function LCG(seed) {
         this.seed = seed;
-        this.A = 1024;
+        this.A = 1023;
         this.B = 5;
-        this.M = 4294967296; // = 2**32;
+        this.M = 4294967296;
         this.seed_m = seed;
         this.rndNum_m = seed;
     }
@@ -12,4 +12,4 @@ var LCG = (function () {
         return this.rndNum_m;
     };
     return LCG;
-})();
+}());

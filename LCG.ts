@@ -1,5 +1,5 @@
 class LCG{
-  A: number = 1024;
+  A: number = 1023;
   B: number = 5;
   M: number = 4294967296 // = 2**32;
 

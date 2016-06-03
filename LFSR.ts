@@ -9,11 +9,11 @@ class LFSR{
 
   public generate(): number{
     var bit: number;
-    bit = (this.rndNum_m & 0x00000001) ^
-          ((this.rndNum_m & 0x00000002) >> 1) ^
-          ((this.rndNum_m & 0x20000000) >> 21) ^
-          ((this.rndNum_m & 0x80000000) >> 31);
-    this.rndNum_m = (this.rndNum_m >> 1) | (this.rndNum_m << 31);
+    bit = (this.rndNum_m & 0x0001) ^
+          ((this.rndNum_m & 0x0004) >> 2) ^
+          ((this.rndNum_m & 0x0008) >> 3) ^
+          ((this.rndNum_m & 0x0020) >> 5);
+    this.rndNum_m = (this.rndNum_m >> 1) | (bit << 15);
     return this.rndNum_m;
   }
 }
