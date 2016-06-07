@@ -1,10 +1,9 @@
-class LFSR{
-  private seed_m: number;
-  private rndNum_m: number;
+class LFSR extends Random{
 
-  constructor(private seed: number){
-    this.seed_m = seed;
-    this.rndNum_m = seed;
+  constructor(seed: number,
+              min: number = 0,
+              max: number = 4294967295){
+    super(seed, min, max, 65535);
   }
 
   public generate(): number{
@@ -14,6 +13,6 @@ class LFSR{
           ((this.rndNum_m & 0x0008) >> 3) ^
           ((this.rndNum_m & 0x0020) >> 5);
     this.rndNum_m = (this.rndNum_m >> 1) | (bit << 15);
-    return this.rndNum_m;
+    return super.uniform();
   }
 }

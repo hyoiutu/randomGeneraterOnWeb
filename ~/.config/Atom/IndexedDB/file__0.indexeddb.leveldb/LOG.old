@@ -1,0 +1,135 @@
+2016/06/05-12:46:18.455 1971 Reusing MANIFEST /home/keisuke/LocalRepositories/randomGeneraterOnWeb/~/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2016/06/05-12:46:18.456 1971 Recovering log #4
+2016/06/05-12:46:18.536 1971 Reusing old log /home/keisuke/LocalRepositories/randomGeneraterOnWeb/~/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000004.log 
+2016/06/05-12:52:10.863 2972 Level-0 table #8: started
+2016/06/05-12:52:10.994 2972 Level-0 table #8: 1421051 bytes OK
+2016/06/05-12:52:11.037 2972 Delete type=0 #4
+2016/06/05-12:58:47.236 2972 Level-0 table #10: started
+2016/06/05-12:58:47.339 2972 Level-0 table #10: 1404027 bytes OK
+2016/06/05-12:58:47.384 2972 Delete type=0 #7
+2016/06/05-13:01:38.518 2972 Level-0 table #12: started
+2016/06/05-13:01:38.642 2972 Level-0 table #12: 1370542 bytes OK
+2016/06/05-13:01:38.686 2972 Delete type=0 #9
+2016/06/05-13:05:47.368 2972 Level-0 table #14: started
+2016/06/05-13:05:47.510 2972 Level-0 table #14: 1370782 bytes OK
+2016/06/05-13:05:47.543 2972 Delete type=0 #11
+2016/06/05-13:09:56.398 2972 Level-0 table #16: started
+2016/06/05-13:09:56.523 2972 Level-0 table #16: 1344012 bytes OK
+2016/06/05-13:09:56.555 2972 Delete type=0 #13
+2016/06/05-13:09:56.557 2972 Compacting 4@0 + 1@1 files
+2016/06/05-13:09:56.666 2972 Generated table #17: 3 keys, 43717 bytes
+2016/06/05-13:09:56.666 2972 Compacted 4@0 + 1@1 files => 43717 bytes
+2016/06/05-13:09:56.699 2972 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/06/05-13:09:56.700 2972 Delete type=2 #12
+2016/06/05-13:09:56.701 2972 Delete type=2 #14
+2016/06/05-13:09:56.702 2972 Delete type=2 #16
+2016/06/05-13:09:56.703 2972 Delete type=2 #10
+2016/06/05-13:09:56.704 2972 Delete type=2 #8
+2016/06/05-13:15:38.030 2972 Level-0 table #19: started
+2016/06/05-13:15:38.152 2972 Level-0 table #19: 1354401 bytes OK
+2016/06/05-13:15:38.184 2972 Delete type=0 #15
+2016/06/05-13:19:19.169 2972 Level-0 table #21: started
+2016/06/05-13:19:19.298 2972 Level-0 table #21: 1365820 bytes OK
+2016/06/05-13:19:19.342 2972 Delete type=0 #18
+2016/06/05-13:23:36.570 2972 Level-0 table #23: started
+2016/06/05-13:23:36.671 2972 Level-0 table #23: 1369022 bytes OK
+2016/06/05-13:23:36.705 2972 Delete type=0 #20
+2016/06/05-13:47:25.974 2972 Level-0 table #25: started
+2016/06/05-13:47:26.099 2972 Level-0 table #25: 1394119 bytes OK
+2016/06/05-13:47:26.134 2972 Delete type=0 #22
+2016/06/05-13:47:26.134 2972 Compacting 4@0 + 1@1 files
+2016/06/05-13:47:26.223 2972 Generated table #26: 5 keys, 55449 bytes
+2016/06/05-13:47:26.223 2972 Compacted 4@0 + 1@1 files => 55449 bytes
+2016/06/05-13:47:26.257 2972 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/06/05-13:47:26.257 2972 Delete type=2 #23
+2016/06/05-13:47:26.258 2972 Delete type=2 #25
+2016/06/05-13:47:26.258 2972 Delete type=2 #17
+2016/06/05-13:47:26.259 2972 Delete type=2 #21
+2016/06/05-13:47:26.259 2972 Delete type=2 #19
+2016/06/05-13:49:58.628 2972 Level-0 table #28: started
+2016/06/05-13:49:58.735 2972 Level-0 table #28: 1346620 bytes OK
+2016/06/05-13:49:58.769 2972 Delete type=0 #24
+2016/06/05-13:54:41.401 2972 Level-0 table #30: started
+2016/06/05-13:54:41.523 2972 Level-0 table #30: 1321520 bytes OK
+2016/06/05-13:54:41.555 2972 Delete type=0 #27
+2016/06/05-13:59:30.343 2972 Level-0 table #32: started
+2016/06/05-13:59:30.467 2972 Level-0 table #32: 1340103 bytes OK
+2016/06/05-13:59:30.499 2972 Delete type=0 #29
+2016/06/05-14:06:16.019 2972 Level-0 table #34: started
+2016/06/05-14:06:16.137 2972 Level-0 table #34: 1333560 bytes OK
+2016/06/05-14:06:16.169 2972 Delete type=0 #31
+2016/06/05-14:06:16.171 2972 Compacting 4@0 + 1@1 files
+2016/06/05-14:06:16.280 2972 Generated table #35: 5 keys, 69865 bytes
+2016/06/05-14:06:16.280 2972 Compacted 4@0 + 1@1 files => 69865 bytes
+2016/06/05-14:06:16.314 2972 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/06/05-14:06:16.314 2972 Delete type=2 #30
+2016/06/05-14:06:16.315 2972 Delete type=2 #32
+2016/06/05-14:06:16.316 2972 Delete type=2 #34
+2016/06/05-14:06:16.317 2972 Delete type=2 #26
+2016/06/05-14:06:16.318 2972 Delete type=2 #28
+2016/06/05-14:15:57.072 2972 Level-0 table #37: started
+2016/06/05-14:15:57.193 2972 Level-0 table #37: 1310661 bytes OK
+2016/06/05-14:15:57.224 2972 Delete type=0 #33
+2016/06/05-14:19:01.412 2972 Level-0 table #39: started
+2016/06/05-14:19:01.507 2972 Level-0 table #39: 1338040 bytes OK
+2016/06/05-14:19:01.549 2972 Delete type=0 #36
+2016/06/05-14:22:36.423 2972 Level-0 table #41: started
+2016/06/05-14:22:36.545 2972 Level-0 table #41: 1324479 bytes OK
+2016/06/05-14:22:36.577 2972 Delete type=0 #38
+2016/06/05-14:24:49.102 2972 Level-0 table #43: started
+2016/06/05-14:24:49.212 2972 Level-0 table #43: 1328259 bytes OK
+2016/06/05-14:24:49.246 2972 Delete type=0 #40
+2016/06/05-14:24:49.247 2972 Compacting 4@0 + 1@1 files
+2016/06/05-14:24:49.335 2972 Generated table #44: 5 keys, 86583 bytes
+2016/06/05-14:24:49.335 2972 Compacted 4@0 + 1@1 files => 86583 bytes
+2016/06/05-14:24:49.369 2972 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/06/05-14:24:49.369 2972 Delete type=2 #35
+2016/06/05-14:24:49.369 2972 Delete type=2 #41
+2016/06/05-14:24:49.371 2972 Delete type=2 #43
+2016/06/05-14:24:49.372 2972 Delete type=2 #37
+2016/06/05-14:24:49.373 2972 Delete type=2 #39
+2016/06/05-14:33:45.628 2972 Level-0 table #46: started
+2016/06/05-14:33:45.749 2972 Level-0 table #46: 1331920 bytes OK
+2016/06/05-14:33:45.792 2972 Delete type=0 #42
+2016/06/05-14:41:25.539 2972 Level-0 table #48: started
+2016/06/05-14:41:25.658 2972 Level-0 table #48: 1293591 bytes OK
+2016/06/05-14:41:25.690 2972 Delete type=0 #45
+2016/06/05-14:42:56.417 2972 Level-0 table #50: started
+2016/06/05-14:42:56.534 2972 Level-0 table #50: 1326246 bytes OK
+2016/06/05-14:42:56.578 2972 Delete type=0 #47
+2016/06/05-14:44:49.053 2972 Level-0 table #52: started
+2016/06/05-14:44:49.153 2972 Level-0 table #52: 1344114 bytes OK
+2016/06/05-14:44:49.186 2972 Delete type=0 #49
+2016/06/05-14:44:49.188 2972 Compacting 4@0 + 1@1 files
+2016/06/05-14:44:49.297 2972 Generated table #53: 5 keys, 92078 bytes
+2016/06/05-14:44:49.297 2972 Compacted 4@0 + 1@1 files => 92078 bytes
+2016/06/05-14:44:49.330 2972 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/06/05-14:44:49.331 2972 Delete type=2 #46
+2016/06/05-14:44:49.332 2972 Delete type=2 #44
+2016/06/05-14:44:49.332 2972 Delete type=2 #50
+2016/06/05-14:44:49.333 2972 Delete type=2 #48
+2016/06/05-14:44:49.334 2972 Delete type=2 #52
+2016/06/05-14:46:05.636 2972 Level-0 table #55: started
+2016/06/05-14:46:05.754 2972 Level-0 table #55: 1295199 bytes OK
+2016/06/05-14:46:05.788 2972 Delete type=0 #51
+2016/06/05-14:49:36.665 2972 Level-0 table #57: started
+2016/06/05-14:49:36.779 2972 Level-0 table #57: 1298078 bytes OK
+2016/06/05-14:49:36.812 2972 Delete type=0 #54
+2016/06/05-14:52:36.960 2972 Level-0 table #59: started
+2016/06/05-14:52:37.075 2972 Level-0 table #59: 1338043 bytes OK
+2016/06/05-14:52:37.108 2972 Delete type=0 #56
+2016/06/05-14:57:04.718 2972 Level-0 table #61: started
+2016/06/05-14:57:04.826 2972 Level-0 table #61: 1283440 bytes OK
+2016/06/05-14:57:04.858 2972 Delete type=0 #58
+2016/06/05-14:57:04.859 2972 Compacting 4@0 + 1@1 files
+2016/06/05-14:57:04.937 2972 Generated table #62: 5 keys, 97160 bytes
+2016/06/05-14:57:04.937 2972 Compacted 4@0 + 1@1 files => 97160 bytes
+2016/06/05-14:57:04.970 2972 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/06/05-14:57:04.970 2972 Delete type=2 #53
+2016/06/05-14:57:04.971 2972 Delete type=2 #59
+2016/06/05-14:57:04.971 2972 Delete type=2 #61
+2016/06/05-14:57:04.971 2972 Delete type=2 #55
+2016/06/05-14:57:04.972 2972 Delete type=2 #57
+2016/06/05-14:58:37.324 2972 Level-0 table #64: started
+2016/06/05-14:58:37.424 2972 Level-0 table #64: 1325787 bytes OK
+2016/06/05-14:58:37.458 2972 Delete type=0 #60
