@@ -27,5 +27,12 @@ var Random = (function () {
         }
         return rndStr;
     };
+    Random.prototype.generateString = function (num) {
+        var randomString = "";
+        for (var i = 0; i < num; ++i) {
+            randomString += String.fromCharCode(this.generate());
+        }
+        return randomString;
+    };
     return Random;
 }());

@@ -2,7 +2,8 @@ class LFSR extends Random{
 
   constructor(seed: number,
               min: number = 0,
-              max: number = 4294967295){
+              max: number = 4294967295
+              ){
     super(seed, min, max, 65535);
   }
 

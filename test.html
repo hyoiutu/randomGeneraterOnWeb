@@ -11,7 +11,7 @@
 <title>クイズ</title>
 </head>
 <body>
-  <form name="js", action="#">
+  <form name="js" action="#">
     <p> アルゴリズムを選択してください・ </p>
     <p>
       <select id="algorithm">
@@ -19,43 +19,83 @@
         <option value="LFSR">線形帰還シフトレジスタ</option>
       </select>
     </p>
-    <p> シードを入力してください・ </p>
+    <p> シードを入力してください </p>
     <p>
       シード：<input type="text" id="seed" size="40" maxlength="20">
     </p>
-    <p> 最小値・最大値を入力してください・ </p>
+    <p> 出力形式を選んでください </p>
     <p>
-      最小値：<input type="text" id="min" size="40" maxlength="20">
-      最大値:<input type="text" id="max" size="40" maxlength="20">
+      <input type="radio" name="type" id="int" value="integer" checked >整数
+      <input type="radio" name="type" id="str" value="string">文字列
     </p>
-    <p> 生成数を入力してください・ </p>
+    <script>
+      document.getElementById("int").addEventListener('click', intTuning, false);
+      document.getElementById("str").addEventListener('click', strTuning, false);
+      function intTuning(){
+        document.getElementById("tuning").innerHTML = (function() {/*
+        <p> 最小値・最大値を入力してください・ </p>
+        <p>
+          最小値：<input type="text" id="min" size="40" maxlength="20">
+          最大値:<input type="text" id="max" size="40" maxlength="20">
+        </p>
+        <p> 生成数を入力してください・ </p>
+        <p>
+          生成数:<input type="text" id="numOfGen" size="40" maxlength="20">
+        </p>*/}).toString().replace(/(\n)/g, '').split('*')[1];
+        let generates = () => {
+
+        };
+      }
+      function strTuning(){
+        document.getElementById("tuning").innerHTML = (function(){/*
+        <p> 生成数を入力してください・ </p>
+        <p>
+          生成数:<input type="text" id="numOfGen" size="40" maxlength="20">
+        </p>*/}).toString().replace(/(\n)/g, '').split('*')[1];
+        var generates = () => {
+
+        };
+      }
+    </script>
+    <div id="tuning"></div>
     <p>
-      生成数:<input type="text" id="numOfGen" size="40" maxlength="20">
+      <input type="button" id="generateButton" value="生成">
     </p>
+    <script>
+      function generates(){
+        var min;
+        var max;
+        if(document.getElementById("int").checked){
+          min = parseInt(document.getElementById('min').value);
+          max = parseInt(document.getElementById('max').value);
+        }
+        else{
+          min = 65;
+          max = 122;
+        }
+        var numOfGen = parseInt(document.getElementById('numOfGen').value);
+        var seed = parseInt(document.getElementById('seed').value);
+        var random;
+
+        if(document.getElementById('algorithm').value == "LCG"){
+          random = new LCG(seed, min, max);
+        }
+        else if(document.getElementById('algorithm').value == "LFSR"){
+          random = new LFSR(seed, min, max);
+        }
+        target = document.getElementById("output");
+        if(document.getElementById("int").checked){
+          target.innerHTML = random.generates(numOfGen);
+        }
+        else{
+          target.innerHTML =random.generateString(numOfGen);
+        }
+      }
+      document.getElementById("generateButton").addEventListener('click',generates,false);
+    </script>
     <p>
-      <input type="button" value="生成" onclick="generates()">
-    </p>
       <div id="output"></div>
     </p>
   </form>
-  <script>
-    function generates(){
-
-      var min = parseInt(document.getElementById('min').value);
-      var max = parseInt(document.getElementById('max').value);
-      var numOfGen = parseInt(document.getElementById('numOfGen').value);
-      var seed = parseInt(document.getElementById('seed').value);
-
-      if(document.getElementById('algorithm').value == "LCG"){
-        var random = new LCG(seed, min, max);
-      }
-      else if(document.getElementById('algorithm').value == "LFSR"){
-        var random = new LFSR(seed, min, max);
-      }
-
-      target = document.getElementById("output");
-      target.innerHTML = random.generates(numOfGen);
-    }
-  </script>
 </body>
 </html>
