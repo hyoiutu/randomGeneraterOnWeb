@@ -7,8 +7,9 @@
 <script src="Random.js"></script>
 <script src="LCG.js"></script>
 <script src="LFSR.js"></script>
+<script src="XorShift.js"></script>
 
-<title>クイズ</title>
+<title>FujiwaRandom</title>
 </head>
 <body>
   <form name="js", action="#">
@@ -17,6 +18,7 @@
       <select id="algorithm">
         <option value="LCG" selected>線形合同法</option>
         <option value="LFSR">線形帰還シフトレジスタ</option>
+        <option value="XorShift"> XorShift(32bit)</option>
       </select>
     </p>
     <p> シードを入力してください・ </p>
@@ -51,6 +53,9 @@
       }
       else if(document.getElementById('algorithm').value == "LFSR"){
         var random = new LFSR(seed, min, max);
+      }
+      else if(document.getElementById('algorithm').value == "XorShift"){
+        var random = new XorShift(seed, min, max);
       }
 
       target = document.getElementById("output");

@@ -1,25 +1,23 @@
-var XorShift = (function () {
-    function XorShift(seed) {
-        this.seed = seed;
-        this.A = 1025;
-        this.B = 5;
-        this.M = 2048;
-        this.RAND_MAX = this.M;
-        this.seed_m = seed;
-        this.rndNum_m = seed;
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var XorShift = (function (_super) {
+    __extends(XorShift, _super);
+    function XorShift(seed, min, max) {
+        if (min === void 0) { min = 0; }
+        if (max === void 0) { max = 4294967295; }
+        _super.call(this, seed, min, max, 4294967295);
+        this.A = 13;
+        this.B = 17;
+        this.C = 5;
     }
-    XorShift.prototype.generate = function (min, max) {
-        var rangeRnd;
-        this.rndNum_m = (this.A * this.rndNum_m + this.B) % this.M;
-        rangeRnd = min + Math.floor((max - min + 1.0) * this.rndNum_m / (this.M + 1.0));
-        return rangeRnd;
-    };
-    XorShift.prototype.generates = function (num, min, max) {
-        var rndStr = "";
-        for (var i = 0; i < num; ++i) {
-            rndStr += this.generate(min, max) + " ";
-        }
-        return rndStr;
+    XorShift.prototype.generate = function () {
+        this.rndNum_m = (this.rndNum_m ^ (this.rndNum_m << this.A)) >>> 0;
+        this.rndNum_m = (this.rndNum_m ^ (this.rndNum_m >>> this.B)) >>> 0;
+        this.rndNum_m = (this.rndNum_m ^ (this.rndNum_m << this.C)) >>> 0;
+        return _super.prototype.uniform.call(this);
     };
     return XorShift;
-}());
+}(Random));
