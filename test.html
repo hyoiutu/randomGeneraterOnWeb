@@ -85,6 +85,9 @@
         else if(document.getElementById('algorithm').value == "LFSR"){
           random = new LFSR(seed, min, max);
         }
+        else if(document.getElementById('algorithm').value == "XorShift"){
+          random = new XorShift(seed, min, max);
+        }
         target = document.getElementById("output");
         if(document.getElementById("int").checked){
           target.innerHTML = random.generates(numOfGen);
