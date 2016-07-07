@@ -34,4 +34,12 @@ class Random{
     }
     return rndStr;
   }
+
+  public generateString(num: number) : string{
+    var randomString: string = ""
+    for(var i=0;i<num;++i){
+      randomString += String.fromCharCode(this.generate());
+    }
+    return randomString;
+  }
 }

@@ -1,3 +1,33 @@
-2016/06/26-12:59:20.059 2447 Reusing MANIFEST /home/keisuke/LocalRepositories/randomGeneraterOnWeb/~/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2016/06/26-12:59:20.059 2447 Recovering log #178
-2016/06/26-12:59:20.110 2447 Reusing old log /home/keisuke/LocalRepositories/randomGeneraterOnWeb/~/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000178.log 
+<<<<<<< HEAD
+2016/06/29-19:11:18.875 1681 Reusing MANIFEST /home/keisuke/LocalRepositories/randomGeneraterOnWeb/~/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2016/06/29-19:11:18.876 1681 Recovering log #178
+2016/06/29-19:11:18.932 1681 Reusing old log /home/keisuke/LocalRepositories/randomGeneraterOnWeb/~/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000178.log 
+2016/06/29-19:32:42.961 2719 Level-0 table #183: started
+2016/06/29-19:32:43.087 2719 Level-0 table #183: 1456906 bytes OK
+2016/06/29-19:32:43.119 2719 Delete type=0 #178
+2016/06/29-19:40:26.524 2719 Level-0 table #185: started
+2016/06/29-19:40:26.670 2719 Level-0 table #185: 1479568 bytes OK
+2016/06/29-19:40:26.713 2719 Delete type=0 #182
+2016/06/29-19:56:53.200 2719 Level-0 table #187: started
+2016/06/29-19:56:53.375 2719 Level-0 table #187: 1424022 bytes OK
+2016/06/29-19:56:53.409 2719 Delete type=0 #184
+2016/06/29-20:22:36.226 2719 Level-0 table #189: started
+2016/06/29-20:22:36.342 2719 Level-0 table #189: 1454552 bytes OK
+2016/06/29-20:22:36.374 2719 Delete type=0 #186
+2016/06/29-20:22:36.375 2719 Compacting 4@0 + 1@1 files
+2016/06/29-20:22:36.486 2719 Generated table #190: 5 keys, 126879 bytes
+2016/06/29-20:22:36.486 2719 Compacted 4@0 + 1@1 files => 126879 bytes
+2016/06/29-20:22:36.519 2719 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/06/29-20:22:36.519 2719 Delete type=2 #189
+2016/06/29-20:22:36.520 2719 Delete type=2 #180
+2016/06/29-20:22:36.520 2719 Delete type=2 #187
+2016/06/29-20:22:36.522 2719 Delete type=2 #185
+2016/06/29-20:22:36.523 2719 Delete type=2 #183
+2016/06/29-20:46:58.771 2719 Level-0 table #192: started
+2016/06/29-20:46:58.919 2719 Level-0 table #192: 1366760 bytes OK
+2016/06/29-20:46:58.952 2719 Delete type=0 #188
+=======
+2016/06/07-17:00:56.464 8981 Reusing MANIFEST /home/keisuke/LocalRepositories/randomGeneraterOnWeb/~/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2016/06/07-17:00:56.464 8981 Recovering log #178
+2016/06/07-17:00:56.470 8981 Reusing old log /home/keisuke/LocalRepositories/randomGeneraterOnWeb/~/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000178.log 
+>>>>>>> 49d1ca9b166d10f5957a0feff63c605d58333798
